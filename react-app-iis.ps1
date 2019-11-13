@@ -23,7 +23,7 @@ New-Item -Path . -type file -name "config.json" -Value '{
 }'
 $newName = "src"
 #New-Item -Path . -Name "testDir" -ItemType "directory"
-#Designed by Uchendu Precious, Software Engineer|GSV
+#Designed by Uchendu Precious, Software Engineer
 cmd /c "npm install -g create-react-app "
 cmd /c "create-react-app testdir"
 $currentLocation = Get-Location
@@ -41,8 +41,8 @@ $nuSpecContent = '<?xml version="1.0"?>
   <metadata>
     <id>pipmap</id>
     <version>1.0.0</version>
-    <authors>VGG</authors>
-    <owners>VGG</owners>
+    <authors>COMPANY_NAME</authors>
+    <owners>COMPANY_NAME</owners>
     <description>'+$Server+' Application</description>
   </metadata>
   <files>
